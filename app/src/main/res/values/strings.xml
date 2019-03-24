@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Movie UI UX</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="search">Search</string>
+    <string name="languages">Languages</string>
+    <string name="share">Share</string>
+    <string name="detail">Detail</string>
+    <string name="app_label">app label</string>
+    <string name="search_hint">search hint</string>
+    <string name="jarvis0432_gmail_com">jarvis0432@gmail.com</string>
+    <string name="muhammad_rezaldi">Muhammad Rezaldi</string>
+    <string name="image_film">image film</string>
+    <string name="gambar">image</string>
+    <string name="judul">title</string>
+    <string name="tanggal">date</string>
+    <string name="results">Results:</string>
+    <string name="preferences">Preferences</string>
+    <string name="favorite">Favorite</string>
+    <string name="sharing">sharing</string>
+    <string name="appwidget_text">Image Banner</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">No Data</string>
+</resources>

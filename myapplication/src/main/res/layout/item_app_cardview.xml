@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/img_movie"
+        android:contentDescription="@string/image_film"
+        tools:src="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_toRightOf="@id/img_movie"
+            android:layout_toEndOf="@id/img_movie"
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="JUDUL FILM"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_below="@id/tv_judul"
+            android:layout_toRightOf="@id/img_movie"
+            android:layout_toEndOf="@id/img_movie"
+            android:id="@+id/tv_date"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="DATE FILM"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_below="@id/tv_date"
+            android:layout_toRightOf="@id/img_movie"
+            android:layout_toEndOf="@id/img_movie"
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="DETAIL FILM"
+            android:lines="2"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Favorite Movies</string>
+    <string name="share">share</string>
+    <string name="detail">detail</string>
+    <string name="image_film">image film</string>
+    <string name="gambar">gambar</string>
+    <string name="sharing">sharing</string>
+</resources>

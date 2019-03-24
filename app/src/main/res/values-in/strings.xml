@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie UI UX</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Tayang</string>
+    <string name="upcoming">Segera</string>
+    <string name="search">Cari</string>
+    <string name="languages">Bahasa</string>
+    <string name="share">Bagi</string>
+    <string name="detail">Detail</string>
+    <string name="results">Hasil:</string>
+    <string name="preferences">Preferensi</string>
+    <string name="favorite">Favorit</string>
+</resources>
